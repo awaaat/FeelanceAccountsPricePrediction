@@ -74,10 +74,10 @@ class ConfigParameters:
                 'Wyzant': (r'Wyzant', re.I),
                 'Studydaddy': (r'.dad+y.|studydaddy', re.I),
                 'Studygate': (r'.gate', re.I),
-                'Transtutors': (r'transtutors?', re.I),
+                'Transtutors': (r'transtutors?', re.I), #Revisit here
                 'Topwriterlist': (r'Top\s*?writers*?\s?list', re.I),
                 'Chat from home': (r'Chat\s*?from\s*?home', re.I),
-                'Hirewriters': (r'hire\s*?writer', re.I),
+                'Hirewriters': (r'hire\s*?writer', re.I), #Revisit here
                 'Enemployed Professor': (r'.Unemployed\s*?prof.|UNEMPLOYED PROFESSOR', re.I),
                 'Course Hero': (r'Course\s*?Hero', re.I),
                 'GoTranscript': (r'Go\s*?Transcript', re.I),
